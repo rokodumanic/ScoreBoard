@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body{
+  background-color: #88cefa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonContainer{
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.club{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls button{
+  border: 1px solid #d9d9d9;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.controls button:hover{
+  background-color: #f4f4f4;
+}
+
+.date{
+  margin: 2rem auto 0.5rem;
+  color: #645854;
+}
+
+.logo{
+  height: 8rem;
+}
+
+.playBtn{
+  margin-bottom: 2rem;
+}
+
+.score{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.scoreBoard{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 2px solid #80b5e4;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.scoreValue{
+  font-size: 4rem;
+  font-weight: bold;
+  
+}
+
+.timer{
+  align-self: center;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.valueAndButtons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
